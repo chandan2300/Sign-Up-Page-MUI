@@ -46,7 +46,7 @@ const SignUp = () => {
           <Avatar className={classes.avatarStyle}>
             <LockOutlinedIcon />
           </Avatar>
-          <h2>Sign In</h2>
+          <h2>Sign Up</h2>
         </Grid>
         <TextField
           label="Username"
