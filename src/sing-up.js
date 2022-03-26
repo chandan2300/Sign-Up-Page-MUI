@@ -70,6 +70,7 @@ const SignUp = () => {
           <Avatar className={classes.avatarStyle}>
             <LockOutlinedIcon />
           </Avatar>
+<<<<<<< HEAD
           <Grid align="center">
             <h2 style={{ marginTop: "0px" }}>Sign Up</h2>
           </Grid>
@@ -101,6 +102,37 @@ const SignUp = () => {
             control={<Checkbox name="checkedB" className={classes.textField} />}
             label="Remember me"
           />
+=======
+          <h2>Sign Up</h2>
+        </Grid>
+        <TextField
+          label="Username"
+          placeholder="Enter username"
+          fullWidth
+          required
+        />
+        <TextField
+          label="Password"
+          placeholder="Enter password"
+          type="password"
+          fullWidth
+          required
+        />
+        <TextField
+          label="Email"
+          placeholder="Enter Email"
+          type="email"
+          fullWidth
+          required
+        />
+        <Button
+          variant="contained"
+          className={classes.btnstyle}
+          onClick={() => setOpen(true)}
+        >
+          Upload Resume
+        </Button>
+>>>>>>> a20c09a6ee91b6bd5b80c19254ef00c73f124639
 
           <DropzoneDialog
             cancelButtonText={"cancel"}
