@@ -1,12 +1,10 @@
 import "./App.css";
-// import Signup from "./sing-up";
-import Register from "./Register";
-import ResponsiveAppBar from "./Navbar";
+import Forgot from "./Forgot";
 
 function App() {
   return (
     <div className="App">
-      <ResponsiveAppBar />
+      <Forgot />
     </div>
   );
 }
